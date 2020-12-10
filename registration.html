@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/fontawesome.min.css">
+<link rel="stylesheet" type="text/css" href="p5.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div id="divmain">
+	<i class="fa fa-check-square-o" style="font-size:24px"> Registration</i>
+		
+
+		<form>
+				<fieldset class="field">
+				<legend style="color: #a3f742">Acoount Details</legend>
+				<label>Email* &nbsp &nbsp &nbsp</label>
+				<input type="text" name="E-mail" class="email"> 
+
+						&nbsp
+						&nbsp
+						&nbsp
+						<label>Repeat email* &nbsp &nbsp &nbsp</label>
+							<input type="text" name="E-mail">
+								<br>
+								<br>
+						<label>Password*</label>
+							<input type="Password" name="Password">
+							&nbsp
+							&nbsp
+							&nbsp
+						
+						<label>Repeat Password*</label>
+							<input type="Password" name="Password">
+							&nbsp
+							&nbsp
+							&nbsp
+							&nbsp
+							<i>*obligatory fields </i>
+				</fieldset>
+
+				<fieldset class="details">
+						
+						<legend style="color: #a3f742">
+						Personal Details
+						</legend>
+							<label>Name*</label>
+								<input type="text" name="name">
+									<br>
+									<br>
+							<label>Phone*</label>
+						
+							<input type="number" name="phno" required>
+									<br>
+									<br>
+						
+							<label>Street</label>
+
+							<input type="text" name="Street" >
+									<br>
+									<br>
+						<label>City*</label>
+						<input type="text" name="city" >
+									<br>
+									<br>
+						<label> Country*</label>
+						<select name="Country">
+						<option>Select Country </option>
+						<option value="INDIA"> India </option>
+						<option value="USA"> USA </option>
+						<option value="UK"> UK </option>
+						</select>
+										<br>
+										<br>
+	
+
+					<label>Website:</label>
+								<input type="text" name="text" value="http://" >
+				</fieldset>
+	
+
+				<fieldset class="info" >
+							<legend style="color: #a3f742">
+										Further Information   </legend>
+	
+
+				<label> Gender* </label>
+							<input type="radio" value="male" name="Gender">Male
+							<input type="radio" value="male" name="Gender">Female
+										<br>
+										<br>
+							<label>BirthDate* </label>
+
+							<input type="date" name="date" >
+										<br>
+										<br>
+							<label>Nationality* </label>
+							<select name="type">
+							<option></option>
+							<option value="Indian"> Indian
+							</option>
+							<option value="USA"> USA
+							</option>
+							</select>
+										<br>
+														<br>
+					<label> Children*</label>
+					<input type="checkbox" name="child">
+					<div id="help">
+					<h2>Helpful Information</h2>
+					<p>
+					Here comes some explaining text
+					</p>
+					</div>
+			</fieldset>
+	
+
+		<fieldset class="fieldss">
+					<legend style="color:#a3f742"> Terms and Mailing</legend>
+					<input type="checkbox" name="check" required>* I accept the Terms and Conditions <br>
+					<input type="checkbox" name="check"> I want to receive personalized offers by your site <br>
+					<input type="checkbox" name="check"> Allow partners to send me personilzed offers and related
+					services
+		</fieldset>
+	
+	<button type="submit" class="button"> Register >> </button>
+
+	</form>
+	</div>
+</body>
+</html>
